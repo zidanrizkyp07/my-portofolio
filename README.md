@@ -29,10 +29,6 @@ Visit the website here:
 - About me section
 - Contact section
 
-## 📸 Preview
-
-> Add screenshots here later for a more professional README.
-
 ## 📌 Purpose
 
 This portfolio was created to improve my frontend skills and showcase my projects as a Backend Developer who also enjoys building modern web interfaces.
