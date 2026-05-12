@@ -951,13 +951,22 @@ body.cursor-hover .cursor-ring {
 }
 
 .project-img-placeholder {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio, adjust as needed */
+  overflow: hidden;
+  border-radius: 8px; /* optional, matches card style */
+}
+
+.project-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  border: none; /* removes default iframe border */
 }
+
 
 /* ── CSS Mockup UI inside cards ── */
 .proj-mockup {
