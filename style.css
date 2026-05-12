@@ -162,10 +162,6 @@ img { display: block; max-width: 100%; }
   mix-blend-mode: normal;
 }
 
-.cursor-ring.cursor-dot {
-  /* inner dot that follows instantly — handled via JS */
-}
-
 /* Shrink ring when hovering interactive elements */
 body.cursor-hover .cursor-ring {
   width: 14px;
@@ -584,8 +580,6 @@ body.cursor-hover .cursor-ring {
   opacity: 0.25;
   z-index: 0;
 }
-
-.about-text {}
 
 .about-desc {
   color: var(--clr-text-muted);
